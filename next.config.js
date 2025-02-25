@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+module.export = {
+    eslint: {
+        dirs: ['components', 'web', 'scratch', 'python'],
+    },
+}
