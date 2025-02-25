@@ -34,7 +34,7 @@ export default function Home() {
             <section className="p-4 bg-blue-100 rounded-md mx-2 border-solid border-2 border-opacity-40 shadow-lg border-blue-800">
               <Image src={python} alt="python" />
                 <h2 className="font-bold text-blue-800 text-xl pt-2">Python</h2>
-                  <p className="m-2">Make digital art, games and more, while exploring one of the world's most popular programming languages.</p><br />
+                  <p className="m-2">Make digital art, games and more, while exploring one of the worlds most popular programming languages.</p><br />
 
               <div className="flex justify-center m-auto">
                 <Link href="/python"><button className="border-solid border-2 px-3 rounded-md border-blue-800 bg-blue-50">Explore Python Projects</button></Link>

@@ -14,7 +14,7 @@ const pythonPage = () => {
 
           <header className="container bg-blue-100 mx-auto mt-4 p-4 rounded-xl w-4/5 border-2 border-opacity-50 shadow-lg border-blue-800">
             <h1 className="text-xl font-bold text-blue-800">Python</h1>
-            <p className="m-4 text-lg">Learn about Python, one of the world's most popular programming languages to create digital art, interactive maps, and models.</p>
+            <p className="m-4 text-lg">Learn about Python, one of the worlds most popular programming languages to create digital art, interactive maps, and models.</p>
           </header><br />
 
           <div id="panels" className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4 w-4/5 mx-auto">
@@ -29,7 +29,7 @@ const pythonPage = () => {
             <section className="p-4 bg-blue-100 rounded-md mx-2 border-solid border-2 border-opacity-40 shadow-lg border-blue-800">
             <Image src={pythonMore} alt="pythonMore" />
                 <h2 className="font-bold text-blue-800 text-xl pt-2">Python</h2>
-                  <p className="m-2">Make digital art, games and more, while exploring one of the world's most popular programming languages.</p><br />
+                  <p className="m-2">Make digital art, games and more, while exploring one of the worlds most popular programming languages.</p><br />
 
             </section>
 
