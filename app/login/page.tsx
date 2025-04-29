@@ -56,7 +56,7 @@ const logInPage = () => {
                 </button>
                 {message && <p>{message}</p>}
             </form>
-            <p>Don't have an account? <a href="/register">Register</a></p>
+            <p>Don't have an account? <a href="/registration">Register</a></p>
         </div>
     );
 };
