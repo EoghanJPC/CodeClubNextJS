@@ -9,7 +9,7 @@ export default function NavBar () {
                 <Link href="/scratch"><button className="border-solid border-2 px-3 rounded-md bg-white border-opacity-30 border-black italic hover:bg-orange-100 hover:text-orange-800 duration-500 ">Scratch</button> </Link>
                 <Link href="/python"><button className="border-solid border-2 px-3 rounded-md bg-white border-opacity-30 border-black italic hover:bg-blue-100 hover:text-blue-800 duration-500 ">Python</button> </Link>
                 <Link href="/web"><button className="border-solid border-2 px-3 rounded-md bg-white border-opacity-30 border-black italic hover:bg-green-100 hover:text-green-800 duration-500 ">Web</button> </Link>
-                <Link href="ticketmaster"><button className="border-solid border-2 px-3 rounded-md bg-white border-opacity-30 border-black italic hover:bg-cyan-100 hover:text-cyan-800 duration-500 ">Web</button> </Link>
+                <Link href="/ticketmaster"><button className="border-solid border-2 px-3 rounded-md bg-white border-opacity-30 border-black italic hover:bg-cyan-100 hover:text-cyan-800 duration-500 ">Web</button> </Link>
             </nav>
         </header>
     )
