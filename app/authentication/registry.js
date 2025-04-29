@@ -1,6 +1,6 @@
 import { hash } from 'bcryptjs';
 
-export default async function handler (req, res){
+export default async function handler (res){
     const { username, email, password, name } = req.body
         if (!username, !email || !password || !name) {
             return res.status(400).json({message: "Required fields not submitted"})
@@ -29,9 +29,11 @@ export default async function handler (req, res){
 
             return res.status(201).json({
                 message: 'User Created',
-                user: { username: newUser.username, email: newUser.email, name: newUser.name, role: newUser.role};
-            })
+                user: { username: newUser.username, email: newUser.email, name: newUser.name, role: newUser.role},
+            });
 
-            
+        }catch (error) {
+            console.error("Registration Error:", error);
+            return res.status(500).json({ message: 'Internal Server Error', error: error.message})
         }
 }
